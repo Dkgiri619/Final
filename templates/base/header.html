@@ -5,16 +5,17 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  
+
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 {% load static %}
   <!-- Favicons -->
-  <link href="{% static 'assets/img/favicon.png' %}" rel="icon">
-  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link href="{% static 'assets/img/logofinal.png' %}" rel="icon">
+  <!-- <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
 
   <!-- Vendor CSS Files -->
   <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
@@ -35,12 +36,16 @@
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
-
-      <h1 class="logo"><a href="index.html"><span>Lance India</span></a></h1>
+      <a class="navbar-brand" href="{% url 'home' %}">
+          <img src="{% static 'assets/img/logomay.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
+          Lance India
+        </a>
+      <!-- <h1 class="logo"> <img src="{% static 'assets/img/logomay.png' %}" alt=""> Lance India </h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="{% static '' %}assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="nav-menu d-none d-lg-block">
+
         <ul>
           <li class="active"><a href="{% url 'home' %}">Home</a></li>
           <li><a href="#about">About</a></li>
@@ -51,7 +56,7 @@
             <ul>
               <li><a href="{% url 'services' %}">Web Solutions</a></li>
               <li><a href="{% url 'services' %}">Tax Solutions</a></li>
-              <li><a href="{% url 'services' %}">Graphic Designing</a></li>        
+              <li><a href="{% url 'services' %}">Graphic Designing</a></li>
             </ul>
           </li>
           <li><a href="#contact">Contact</a></li>
