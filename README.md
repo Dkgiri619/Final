@@ -1,3 +1,3 @@
 # blacklance
 
-Need to make an blog style page, services style page.
+Need to make a blog style page, services style page.
