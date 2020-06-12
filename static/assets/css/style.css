@@ -10,9 +10,9 @@
 --------------------------------------------------------------*/
 
 
-  
-   
- 
+
+
+
 
 
 body {
@@ -160,9 +160,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 40px;
-}
-#header .logo h1 {
-  { font-family: Orbitron; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Orbitron; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Orbitron; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Orbitron; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Orbitron; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
 }
 
 /*--------------------------------------------------------------
@@ -727,7 +724,7 @@ section {
     left: 50%;
     border: 7px solid #3b5998;
     border-radius: 100%;
-    background-color: #3b5998; 
+    background-color: #3b5998;
     box-shadow: 0 0 5px #4582ec;
     width: 200px;
     height: 200px;
@@ -768,7 +765,7 @@ section {
   margin-top:22px;
     margin-bottom: 4px;
     padding:0;
-    color: #b3b3b3; 
+    color: #b3b3b3;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -776,13 +773,13 @@ section {
   padding:0;
     text-transform: none;
     font-size:18px;
-    color:#333333; 
+    color:#333333;
 }
 
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
-   color:#808080; 
+   color:#808080;
 }
 /*Style for even div.line*/
 .timeline>li:nth-child(odd) .line:before {
@@ -793,7 +790,7 @@ section {
     left: 690px;
     width: 4px;
     height:340px;
-    background-color: #3b5998; 
+    background-color: #3b5998;
     -ms-transform: rotate(-44deg); /* IE 9 */
     -webkit-transform: rotate(-44deg); /* Safari */
     transform: rotate(-44deg);
@@ -1146,7 +1143,7 @@ section {
 
 --------------------------------------------------------------*/
 .box > .icon { text-align: center; position: relative; }
-.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #63B76C; vertical-align: middle; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background:#353b43; vertical-align: middle; }
 .box > .icon:hover > .image { background: #57cbcc; }
 .box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
 .box > .icon:hover > .image > i { color: white !important; }

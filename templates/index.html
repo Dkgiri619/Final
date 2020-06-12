@@ -1,9 +1,6 @@
 {% load static %}
 
 {% include 'base/header.html' %}
-
-
-
 <title>LanceIndia-Home</title>
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center justify-content-center">
@@ -12,7 +9,8 @@
        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
          <div class="col-xl-6 col-lg-8">
            <h1>Lance India</h1>
-           <h2>we make IT happen!</h2>
+           <h2>we make IT happen!</h2><br><br><br>
+           <a href="#services" class="get-started-btn scrollto">Explore Us</a>
            <!-- <h2>we make IT happen!</h2> -->
            <!-- <a class="cta-btn" href="#">Explore Us</a> -->
 
@@ -255,10 +253,10 @@
          <div class="row" data-aos="fade-up" data-aos-delay="100">
            <div class="col-lg-12 d-flex justify-content-center">
              <ul id="portfolio-flters">
-               <li data-filter="*" class="filter-active">All</li>
-               <li data-filter=".filter-app">App</li>
-               <li data-filter=".filter-card">Card</li>
-               <li data-filter=".filter-web">Web</li>
+               <li data-filter="*" class="filter-active"  style="color:white" >All</li>
+               <li data-filter=".filter-app" style="color:white" >App</li>
+               <li data-filter=".filter-card" style="color:white" >Card</li>
+               <li data-filter=".filter-web" style="color:white" >Web</li>
              </ul>
            </div>
          </div>
@@ -270,7 +268,7 @@
                <img src="{% static 'assets/img/portfolio/portfolio-1.jpg' %}" class="img-fluid" alt="">
                <div class="portfolio-info">
                  <h4>App 1</h4>
-                 <p>App</p>
+                 <p>this is a flutter app hugwewafiygwaeyf</p>
                  <div class="portfolio-links">
                    <a href="{% static 'assets/img/portfolio/portfolio-1.jpg' %}" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
                    <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
@@ -406,7 +404,7 @@
      	<div class="col-xs-12 col-sm-6 col-lg-4">
  			<div class="box">
  				<div class="icon">
- 					<div class="image"> <img src="" alt=""> </div>
+ 					<div class="image"> <img src="{% static 'assets/img/pen11.png' %}" alt=""> </div>
  					<div class="info">
              <br>
  						<h3 class="title">Affordable Packages</h3>
@@ -685,12 +683,14 @@
                <div class="email">
                  <i class="icofont-envelope"></i>
                  <h4>Email:</h4>
-                 <p>work4lanceindia@gmail.com.com</p>
+                 <p>work4lanceindia@gmail.com</p>
                </div>
 
                <div class="phone">
                  <i class="icofont-phone"></i>
                  <h4>Call/Whats App:</h4>
+                 <p><a  href="tel:+918824433104">   +91 88244 33104</a></p>
+                 <p><a  href="tel:123-456-7890">   +91 79806 66539</a></p>
                  <p><a  href="tel:123-456-7890">   +91 88244 33104</a></p>
                </div>
 
