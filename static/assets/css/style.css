@@ -1700,7 +1700,7 @@ a,p,h1,h2,h3,h4,ul {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
-  color: #2f2f2f;
+  color: #57cbcc;
   content: "/";
 }
 

@@ -46,7 +46,7 @@
           <li class="active"><a href="{% url 'home' %}">Home</a></li>
           <!-- <li><a href=" {% url 'home' %} ">About</a></li> -->
           <li><a href="{% url 'home' %}">About</a></li>
-          <li><a href="{% url 'portfolio' %}">Portfolio</a></li>
+          <li><a style="color:#57cbcc; href="{% url 'portfolio' %}">Portfolio</a></li>
 
           <li><a href="{% url 'services' %}">Services</a></li>
           <li><a href="{% url 'home' %}">Contact</a></li>
@@ -77,6 +77,40 @@
     </section><!-- End Breadcrumbs -->
 
     <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container" data-aos="fade-up">
+        {% for each in portfolio.all  %}
+        <div class="portfolio-details-container">
+
+          <div class="owl-carousel portfolio-details-carousel">
+            <img src="{{ each.image.url }}" class="img-fluid" alt="">
+            <img src="{% static 'assets/img/portfolio/portfolio-details-2.jpg' %}" class="img-fluid" alt="">
+            <img src="{% static 'assets/img/portfolio/portfolio-details-3.jpg' %}" class="img-fluid" alt="">
+          </div>
+
+          <div class="portfolio-info">
+            <h3>{{ each.title }}</h3>
+            <ul>
+              <li><strong>Category</strong>: Web design</li>
+              <li><strong>Client</strong>: ASU Company</li>
+              <li><strong>Project date</strong>: 01 March, 2020</li>
+              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="portfolio-description">
+
+          <p>
+            {{ each.text }}
+          </p>
+        </div>
+        <br> <br> <br>
+        {% endfor %} %}
+      </div>
+
+    </section>
     <section id="portfolio-details" class="portfolio-details">
       <div class="container" data-aos="fade-up">
         {% for each in portfolio.all  %}
