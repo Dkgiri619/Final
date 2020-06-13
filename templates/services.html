@@ -1,255 +1,147 @@
 {% load static %}
 
 {% include 'base/header.html' %}
-<link href="{% static 'assets/img/logofinal.png' %}" rel="icon">
-  <!-- <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon"> -->
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
-
-  <!-- Vendor CSS Files -->
-  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/icofont/icofont.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/owl.carousel/assets/owl.carousel.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/venobox/venobox.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-
-  <!-- Template Main CSS File -->
-  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
-
-</head>
+<title>Lance India-Services</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:500,700&display=swap" rel="stylesheet">
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top " style="background-color: black">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a class="navbar-brand" href="{% url 'home' %}">
-          <img src="{% static 'assets/img/logomay.png' %}" width="30" height="30" class="d-inline-block align-top" alt="">
-          Lance India
-        </a>
-      <!-- <h1 class="logo"> <img src="{% static 'assets/img/logomay.png' %}" alt=""> Lance India </h1> -->
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="{% static '' %}assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-      <nav class="nav-menu d-none d-lg-block" >
-
-        <ul>
-          <li class="active"><a href="{% url 'home' %}">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="{% url 'allblogs' %}">Blog</a></li>
-          <li class="drop-down"><a href="{% url 'services' %}">Services</a>
-            <ul>
-              <li><a href="{% url 'services' %}">Web Solutions</a></li>
-              <li><a href="{% url 'services' %}">Tax Solutions</a></li>
-              <li><a href="{% url 'services' %}">Graphic Designing</a></li>
-            </ul>
-          </li>
-          <li><a href="#contact">Contact</a></li>
-
-        </ul>
-      </nav><!-- .nav-menu xz-->
-
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
-
-    </div>
-  </header><!-- End Header -->
-
-
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-
-<title>Services</title>
-
-
-    <section id="breadcrumbs" class="breadcrumbs" style="background-color: #afbac4";">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2>Services</h2>
-          <ol>
-            <li><a href="{% url 'home' %}">Home</a></li>
-            <li style="color: black">Portfolio Details</li>
-          </ol>
+<section class="section-services">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="col-md-10 col-lg-8">
+        <div class="header-section">
+          <h2 class="title">Exclusive <span>Services</span></h2>
+          <p class="description">There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some injected humour</p>
         </div>
-
       </div>
-    </section><!-- End Breadcrumbs -->
+    </div>
+    <div class="row">
+      <!-- Start Single Service -->
+      <div class="col-md-6 col-lg-4">
+        <div class="single-service">
+          <div class="part-1">
+            <i class="fab fa-500px"></i>
+            <h3 class="title">Website Development</h3>
+          </div>
+          <div class="part-2">
+            <p class="description">Don’t have website or unhappy with existing website!
 
-    <!-- ======= Portfolio Details Section ======= -->
+Don’t worry, We will solve your problem by designing your fully mobile responsive website to stand-alone in the race.</p>
+<ul>
+<li>Static Websites starting from 1499 INR</li>
+<li>Dynamic Websites starting from 2000 INR </li>
+<li>E-commerce Websites starting from 3000 INR</li>
+</ul>
+            <a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- / End Single Service -->
+      <!-- Start Single Service -->
+      <div class="col-md-6 col-lg-4">
+        <div class="single-service">
+          <div class="part-1">
+            <i class="fab fa-angellist"></i>
+            <h3 class="title">ios and Android Development</h3>
+          </div>
+          <div class="part-2">
+            <p class="description">We deliver promising, user-friendly, sophisticated and reliable apps. Lance India also provides a detailed admin back-end for store owners and store managers to manage different aspects of your mobile store like adding new products, managing prices, and sending offers.</p>
+            <ul>
+            <li>Post customer services are practiced diligently.</li>
+            <li>Starting from 4999 INR only </li>
 
+            </ul>
+            <a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- / End Single Service -->
+      <!-- Start Single Service -->
+      <div class="col-md-6 col-lg-4">
+        <div class="single-service">
+          <div class="part-1">
+            <i class="fas fa-award"></i>
+            <h3 class="title">Tax Consultancy</h3>
+          </div>
+          <div class="part-2">
+            <p class="description">Our accounting and consultancy firm has more than 6 years of experience in providing a comprehensive range of business advisory services across India.</p>
+            <ul>
+            <li>Income Tax, G.S.T, PF, TDS Return, Auditing and Assurance, Income Tax Scrutiny Matters</li>
+            <li>Food License, Trade Mark Registration, Export Import Liscence, Establishment Liscence</li>
 
-<body style="background-color: #353b43 ">
-<div class="container">
-  <div class="row" >
-    <div class="col-lg-12" >
-      <h3 class="text-center" style="color: #afbac4">Zigzag Timeline Layout (and Cats)</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <ul class="timeline">
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/1" alt="">
+            </ul>
+            <a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step One</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+        </div>
+      </div>
+      <!-- / End Single Service -->
+      <!-- Start Single Service -->
+      <div class="col-md-6 col-lg-4">
+        <div class="single-service">
+          <div class="part-1">
+            <i class="fab fa-asymmetrik"></i>
+            <h3 class="title">Graphic Designing</h3>
           </div>
-          <div class="line"></div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/2" alt="">
+          <div class="part-2">
+            <p class="description">Our highly creative team of designers always excels in creating unique brand identity and out of the box designes that speaks on its own! </p>
+            <ul>
+            <li>Logo and brand identity</li>
+            <li>Vector Illustrations</li>
+            <li>Package Design</li>
+            <li>Print Designe</li>
+            </ul>
+            <a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Two</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+        </div>
+      </div>
+      <!-- / End Single Service -->
+      <!-- Start Single Service -->
+      <div class="col-md-6 col-lg-4">
+        <div class="single-service">
+          <div class="part-1">
+            <i class="fas fa-broadcast-tower"></i>
+            <h3 class="title">Video Production / Editing</h3>
           </div>
-          <div class="line"></div>
-        </li>
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/3" alt="">
+          <div class="part-2">
+            <p class="description">We create awesome explainer videos of all types, that'd improve your brand story telling & user engagement which results in higher conversions.</p>
+            <ul>
+              <li>Photo Editing, YouTube Thumbnail</li>
+              <li>YouTube Video Editing / Creation</li>
+              <li>Convert your random camera caotures into masterpiece</li>
+            </ul>
+            <a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Three</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
+        </div>
+      </div>
+      <!-- / End Single Service -->
+      <!-- Start Single Service -->
+      <div class="col-md-6 col-lg-4">
+        <div class="single-service">
+          <div class="part-1">
+            <i class="fab fa-canadian-maple-leaf"></i>
+            <h3 class="title">Writing and Other Services</h3>
           </div>
-          <div class="line"></div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/4" alt="">
+          <div class="part-2">
+            <p class="description">We have most creative and experienced writers in our team provideing various writing related services.</p>
+            <ul>
+              <li>Website content, Ghost Writing</li>
+              <li>CV / Resume by experts</li>
+              <li>Professional Presentation</li>
+              <li>Copytyping, Sketches, etc.</li>
+            </ul>
+            <a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
           </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Three</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/5" alt="">
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4>Bonus Step</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/2" alt="">
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Two</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/3" alt="">
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Three</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/2" alt="">
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Two</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-          <div class="line"></div>
-        </li>
-        <li>
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="http://lorempixel.com/250/250/cats/3" alt="">
-          </div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 style="color: #afbac4">Step Three</h4>
-              <h4 class="subheading" style="color: #afbac4">Subtitle</h4>
-            </div>
-            <div class="timeline-body">
-              <p class="text-muted">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </div>
-
-        </li>
-      </ul>
+        </div>
+      </div>
+      <!-- / End Single Service -->
     </div>
   </div>
-</div>
+</section>
+
 </body>
+
 {% include 'base/footer.html' %}
