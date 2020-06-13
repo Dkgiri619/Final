@@ -162,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -929,7 +930,7 @@ a,p,h1,h2,h3,h4,ul {
   font-family: "Poppins", sans-serif;
   background-color: #353b43;
   color: #fff;
-  
+
 }
 
 .section-services .header-section {
@@ -1674,7 +1675,7 @@ a,p,h1,h2,h3,h4,ul {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: whitesmoke;
+  background: #242930;
   min-height: 40px;
   margin-top: 74px;
 }
