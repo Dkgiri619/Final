@@ -1,21 +1,33 @@
 from django.shortcuts import render
 from django.core.mail import send_mail
 from django.conf import settings
+from .forms import ContactForm
 
 def home(request):
-    if request.method=='POST':
-        message = request.POST[ 'Contact_Number']
-        email = request.POST['email']
-        send_mail(
-            'Website_contact',
-            message,
-            settings.EMAIL_HOST_USER,
-            email,
-            fail_silently= False
-        )
-        return render(request, 'index.html')
+    
+    form= ContactForm(request.POST or None)
+    if form.is_valid():
+        data = request.POST.copy()
+        name= data.get("contact_name")
+        email= data.get("contact_email")
+        phone = data.get("contact_phone")
+        comment=data.get("content")
+         
+        stuff = [name, email, comment, phone]
+        
+        listToStr = ' '.join([str(elem) for elem in stuff])
 
-    return render(request, 'index.html')
+        send_mail('recieved mail from website', listToStr , 'work4lanceindia@gmail.com' , ['work4lanceindia@gmail.com'], fail_silently=False )
+        print(listToStr)
+
+        context= {'form': form}
+
+        return render(request, 'index.html', context)
+
+    else:
+        context= {'form': form}
+        return render(request, 'index.html', context)
+
 
 
 def services(request):
