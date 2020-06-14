@@ -1194,7 +1194,7 @@ a,p,h1,h2,h3,h4,ul {
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-start;
-  padding: 20px;
+  padding: 10px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -1256,7 +1256,7 @@ a,p,h1,h2,h3,h4,ul {
 .box > .icon > .info > p { font-family: "Roboto",sans-serif !important; font-size: 13px; color: grey; line-height: 1.5em; margin: 20px;}
 .box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #57cbcc; }
 .box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
-.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: ##57cbcc; }
+.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #57cbcc; }
 .box .space { height: 30px; }
 /* .counts .content {
   padding: 30px 0;
@@ -1529,7 +1529,7 @@ a,p,h1,h2,h3,h4,ul {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: ##353b43;
+  background: #353b43;
 }
 
 .contact .info i {
@@ -1958,3 +1958,15 @@ a,p,h1,h2,h3,h4,ul {
   font-size: 13px;
   color: #fff;
 }
+html {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 1.28571429em;
+  font-weight: 700;
+  line-height: 1.2857em;
+  margin: 0;
+}
+
